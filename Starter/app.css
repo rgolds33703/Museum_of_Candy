@@ -1,0 +1,27 @@
+:root {
+  --main-bg-color: #f5d9d5;
+  --main-text-color: #ea1c2c;
+  --secondary-text-color: #f498b8;
+}
+
+body {
+  background-color: var(--main-bg-color);
+  font-family: "Nunito", sans-serif;
+}
+
+#mainNavBar {
+  font-size: 1.5rem;
+  font-weight: 100;
+}
+#mainNavBar .navbar-brand {
+  color: var(--main-text-color);
+  font-size: 1.5rem;
+}
+
+#mainNavBar .nav-link {
+  color: white;
+}
+
+#mainNavBar .nav-link:hover {
+  color: var(--main-text-color);
+}
